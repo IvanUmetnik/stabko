@@ -9,11 +9,8 @@
             margin: 0;
             padding: 0;
             user-select: none;
-            /* disable selection */
             -webkit-user-select: none;
-            /* Safari */
             -ms-user-select: none;
-            /* old IE/Edge */
         }
 
         .container {
@@ -31,7 +28,11 @@
 
         @media (max-width: 768px) {
             .content {
-                width: 100%;
+                width: 100% !important;
+            }
+
+            h1 {
+                font-size: 5.5rem !important;
             }
         }
 
@@ -76,8 +77,5 @@
         </div>
     </div>
 
-
-    
 </body>
-
 </html>

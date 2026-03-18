@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Stanko Stupar</title>
     <style>
         body {
@@ -21,18 +22,17 @@
         }
 
         .content {
-            width: 60%;
-            height: auto;
+            flex: 0 0 60;
             padding: 1vw;
         }
 
         @media (max-width: 768px) {
             .content {
-                width: 100% !important;
+                flex: 0 0 100;
             }
 
             h1 {
-                font-size: 5.5rem !important;
+                font-size: 5.5rem;
             }
         }
 
